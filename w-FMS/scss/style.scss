@@ -1,0 +1,59 @@
+@import "libs/bootstrap-reboot.min";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 900;
+    color: #ffffff;
+    &_f42 {
+        font-size: 42px;
+    }
+}
+
+.button {
+    width: 241px;
+    height: 60px;
+    background-color: #00c2f0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+    /*   text */
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:hover {
+        background-color: #00b1db;
+        box-shadow: 0 0 5px blue;
+    }
+}
+
+@import "blocks/1-header/header";
+@import "blocks/1-header/header-media";
+@import "blocks/2-main/main";
+@import "blocks/2-main/main-media";
+@import "blocks/3-provide/provide";
+@import "blocks/3-provide/provide-media";
+@import "blocks/4-decision/decision";
+@import "blocks/4-decision/decision-media";
+@import "blocks/5-advantages/advantages";
+@import "blocks/5-advantages/advantages-media";
+@import "blocks/6-variants/variants";
+@import "blocks/6-variants/variants-media";
+@import "blocks/7-contacts/contacts";
+@import "blocks/8-footer/footer";
+@import "blocks/8-footer/footer-media";

@@ -1,0 +1,117 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .decision {
+        &__wrap {
+            &_img {
+                display: none;
+            }
+            .slider {
+                .slick-prev {                
+                    left: 50px;            
+                }
+                .slick-next {
+                    right: 50px;
+                } 
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 760px;
+    }
+    .decision {
+        &__nav {
+            width: 750px;
+        }
+        &__item {
+            padding: 0 20px;
+            &:before {
+                display: none;
+            }
+        } 
+        &__wrap {
+            .slider {
+                &__item {
+                    img {
+                        width: 80%;
+                    }
+                }
+                .slick-prev {                
+                    left: 30px;            
+                }
+                .slick-next {
+                    right: 10px;
+                } 
+            }        
+        }           
+    }        
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 560px;
+    }
+    .decision {
+        &__title {
+            width: 550px;
+        }
+        &__nav {
+            width: 100%;
+        }
+        &__item {
+            padding: 0 5px;
+        }
+        &__wrap {
+            .slider {
+                .slick-prev {                
+                    left: 20px;           
+                }
+            }        
+        }
+    }
+}
+
+@media (max-width: 586px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .decision { 
+        padding: 30px 0;
+        &__title {
+            font-size: 23px;
+        }
+        &__nav {
+            margin-top: 20px;
+        }
+        &__rect {
+            height: 320px;
+        }
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            margin: 10px 0;
+        }
+        &__title {
+            width: 100%;
+        }
+        &__link {
+            font-size: 20px;
+        }
+        &__wrap {
+            .slider {
+                .slick-prev {                
+                    left: -6px;           
+                }
+                .slick-next {                
+                    right: -20px;           
+                }
+            }        
+        }
+    }
+}

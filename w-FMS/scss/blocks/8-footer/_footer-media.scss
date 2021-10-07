@@ -1,0 +1,57 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 760px;
+    }
+    .footer {
+        &__wrapper {
+            padding: 20px 0;
+            flex-direction: column;            
+        }
+        &__desc {
+            font-size: 16px;
+        }
+        &__item {
+            margin: 10px 0;
+        }
+        &__link {
+            font-size: 16px;
+        }
+        &__company {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+        &__modules {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+        &__industries {
+            text-align: center;
+            margin-top: 30px;
+        }
+        &__about {
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 560px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}

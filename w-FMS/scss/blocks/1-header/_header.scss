@@ -1,0 +1,29 @@
+
+.header {
+    &__wrapper {
+        padding: 19px 0 16px 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 200px);
+        row-gap: 10px;
+        column-gap: 30px;
+        justify-content: center;
+    }
+    &__item {
+        display: flex;
+    }
+    &__img {
+        padding-top: 3px;
+    }
+    &__info {
+        margin-left: 11px;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__addr {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

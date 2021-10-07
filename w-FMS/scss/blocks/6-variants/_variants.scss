@@ -1,0 +1,52 @@
+.variants {
+    padding: 79px 0 181px 0;
+    min-height: 580px;
+    background: url('../img/bg/bg_variants.jpg') center (center / cover) no-repeat;
+    &__title {
+        margin: 0 auto;
+        text-align: center;
+        &_box {
+            text-transform: uppercase;
+        }
+    }
+    &__inner {        
+        width: 100%;  
+        padding-top: 125px;      
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    &__block {
+        position: relative;
+        width: 570px;       
+        &_left {
+            margin-right: 82px;
+            text-align: right;            
+        }
+        &_right {
+            margin-left: 82px;
+            text-align: left;
+        }
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__rect{
+        position: absolute;
+        width: 167px;
+        height: 167px;
+        opacity: 0.3;
+        background-color: #00c2f0;        
+        bottom: -30px;
+        &_right {
+            left: -35px;
+        }
+        &_left {
+            right: -35px;
+        }
+    }
+
+}

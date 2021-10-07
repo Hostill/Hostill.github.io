@@ -1,0 +1,42 @@
+.provide {
+    padding: 79px 0 81px 0;
+    &__head, &__foot {            
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        column-gap: 30px;
+        &_box {
+            position: relative;
+        }
+    }
+    &__image {                 
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__text {        
+        width: 240px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #393939;
+        text-align: center; 
+        position: absolute;
+        left: 50%; 
+        transform: translateX(-50%);
+        top: 170px;
+    }
+    &__average {
+        margin-top: 50px;
+        text-align: center;
+    }
+    &__desc {
+        margin: 10px 0 20px 0;
+        font-size: 48.1px;
+        font-weight: 700;
+        color: #393939;
+        text-align: center;
+    }
+}
