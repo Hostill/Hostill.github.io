@@ -1,0 +1,95 @@
+
+.contacts {
+    padding: 120px 0 90px 0;
+    &__wrapper {
+        padding: 0 35px 0 52px;
+        display: grid;
+        grid-template-columns: 400px 585px;
+        justify-content: space-between;
+    }
+    &__photo {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        position: relative;
+        padding-left: 12px;       
+        @include before_circle;
+    }
+    &__descr {
+        .divider {
+            margin: 0;
+        }
+    }
+    &__text, &__social {
+        margin-top: 20px;
+    }
+    &__link {
+        margin-right: 25px;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__form {
+        margin-top: 30px;
+        display: grid;
+        grid-template: 45px 190px 45px / 280px 280px;
+        justify-content: space-between;
+        row-gap: 32px;
+        label {
+            display: block;
+            border: 1px solid rgba(0, 0, 0, 0.096);
+            border-radius: 5px;
+            position: absolute;
+            height: 18px;
+            padding: 0 8px;
+            background-color: rgb(217, 240, 241);
+            font-size: 12px;
+            top: -9px;
+            left: 12px;
+        }
+    }
+    &__triggers {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 35px; 
+        align-items: center;
+        span {
+            font-size: 12px;
+        } 
+        input {
+            margin-right: 10px;
+        }
+    }
+
+    &__input {
+        position: relative;
+        input {
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            font-size: 14px;
+        }
+    }
+    &__textarea {
+        position: relative;
+        grid-column: 1/3;
+        textarea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            padding: 20px;
+            font-size: 14px;
+        }        
+    }
+    &__btn {
+        border: none;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
